@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div class="div-first">
+    <div class="main">
+        <div class="heading">
+            <h1>STEP FORM</h1>
+            <div class="icon">
+                <button id="icon-btn">
+                <span class="material-symbols-outlined">
+                    home
+                    </span>
+                </button>
+                <button id="icon-btn">
+                <span class="material-symbols-outlined">
+                    school
+                    </span></button>
+                    <button id="icon-btn">
+                    <span class="material-symbols-outlined">
+                        water_lock
+                        </span></button>
+                        <button id="icon-btn">
+                    <span class="material-symbols-outlined">
+                        output_circle
+                        </span>
+                    </button>
+            </div>
+            <div id="red-line">.</div>
+        </div>
+
+            <div id="form-step-first">
+                <label for="">Enter your Name</label>
+                <input type="text" id="FirstName">
+                <p id="war"></p>
+                <label for="">Enter Your Last Name</label>
+                <input type="text" id="LastName">
+                <p id="war-lname"></p>
+                <label for="">Enter your Address</label>
+                <input type="text" id="Address">
+                <p id="war-Address"></p>
+                <button class="btn" onclick="NextAdd()">Next</button>
+            </div>
+
+        <div id="form-step-sec">
+
+            <label for="">Enter your School Name</label>
+            <input type="text" id="SchoolName">
+            <p id="sec-School"></p>
+            <label for="">Enter Your college Name</label>
+            <input type="text" id="collegeName">
+            <p id="sec-college"></p>
+            <label for="">Enter your Company Name</label>
+            <input type="text" id="CompanyName">
+            <p id="sec-company"></p>
+            <button class="btn"onclick="NextAddsec()">Next</button>
+            <button class="btn" onclick="Previous()">preveious</button>
+        </div>
+
+
+
+        <div id="form-step-third">
+
+            <label for="">Enter Your Password</label>
+            <input type="password" id="firstpassword">
+            <label for="">Conform password</label>
+            <input type="password" id="conformpassword">
+            <button class="btn" onclick="NextAddthird()">Submit</button>
+            <button class="btn" onclick="PreviousSec()">preveious</button>
+        </div>
+        <p id="demo">
+
+        </p>
+
+    </div>
+
+
+
+
+  
+
+</div>
+</body>
+
+</html>

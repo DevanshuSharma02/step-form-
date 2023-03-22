@@ -1,0 +1,85 @@
+
+   
+
+    .main{
+        border: 2px solid;
+        height: auto;
+        width: 50%;
+        height: 80vh;
+        display: flex;
+        background-color: rgb(179, 208, 245);
+        flex-direction: column;
+        box-shadow: 3px 2px 15px 13px black;
+    }
+    body{
+        background-color: lightblue;
+    }
+
+    .div-first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background-color: lightblue;
+        gap: 2vh;
+    }
+
+    .heading{
+        text-align: center;
+    }
+    .icon{
+        display: flex;
+        justify-content: space-around;        
+    }
+    #red-line{
+        background-color: green;
+        width: 15%;
+        z-index: -1;
+        position: static;
+        height: 10px;
+    }
+    #form-step-first,#form-step-sec,#form-step-third{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+    }
+    #form-step-sec,#form-step-third{
+        display: none;
+
+    }
+    input{
+        height: 4vh;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    label{
+        margin-bottom: 10px;
+    }
+    .btn{
+        width: 50%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    li{
+        display: flex;
+    }
+    #demo{
+        display: flex;
+        gap: 3vh;
+    }
+    #war,#war-lname,#war-Address,#sec-company,#sec-college,#sec-School{
+        display: none;
+        margin-top: -25px;
+        margin-left: 10px;
+        color: red;
+    }
+
+    #icon-btn{
+           padding: 2px !important;
+           background-color: lightblue;
+           border-radius: 10px;
+    }
